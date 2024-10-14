@@ -15,6 +15,7 @@ public class PlayerController : CharacterController
             detectController.OnDetected -= Detected;
             detectController.OnDetected += Detected;
         }
+
     }
 
     private void Detected(Transform target)

@@ -209,7 +209,7 @@ GameObject:
   - component: {fileID: 4235848415865572093}
   - component: {fileID: 5729688832116146404}
   - component: {fileID: 4905146033353927538}
-  - component: {fileID: 577803961944269427}
+  - component: {fileID: 3830658982251089588}
   m_Layer: 8
   m_Name: Npc
   m_TagString: Untagged
@@ -389,7 +389,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseStat: {fileID: 0}
   baseAttack: {fileID: 0}
---- !u!114 &577803961944269427
+--- !u!114 &3830658982251089588
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

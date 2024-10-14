@@ -432,8 +432,8 @@ GameObject:
   - component: {fileID: 4960257448382999701}
   - component: {fileID: 5136805901062901481}
   - component: {fileID: 3719130332297170026}
-  - component: {fileID: 5964999272608167244}
   - component: {fileID: 8416627217973165157}
+  - component: {fileID: 8947442650053610395}
   m_Layer: 6
   m_Name: Player
   m_TagString: Untagged
@@ -696,20 +696,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectileSpawnPosition: {fileID: 6300182614401289497}
---- !u!114 &5964999272608167244
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2413153917958568880}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 49cc36774da1b004199aae6beb7a70b2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rigidbody: {fileID: 0}
-  characterName: 
 --- !u!114 &8416627217973165157
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -723,6 +709,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthChangeDelay: 0.5
+--- !u!114 &8947442650053610395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2413153917958568880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49cc36774da1b004199aae6beb7a70b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidbody: {fileID: 0}
+  characterName: 
 --- !u!1 &6828579172151700315
 GameObject:
   m_ObjectHideFlags: 0
